@@ -60,6 +60,7 @@ Caso o mesmo cenário estivesse presente em ambiente corporativo real, os impact
 - Comprometimento do host alvo
 - Execução não autorizada de comandos
 - Acesso indevido a recursos internos
+- Possível movimentação lateral na rede
 - Exposição de dados compartilhados
 - 
 ---
