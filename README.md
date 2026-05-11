@@ -30,7 +30,6 @@ Durante o processo inicial de reconhecimento, foi identificado um host ativo com
 
 Entre eles, destacaram-se os serviços SMB ativos nas portas **139/TCP** e **445/TCP**, protocolos amplamente utilizados em ambientes corporativos para compartilhamento de arquivos, autenticação e comunicação interna.
 
-A exposição desses serviços motivou investigação aprofundada devido ao histórico de ataques envolvendo configurações inseguras em infraestrutura interna.
 
 ---
 
@@ -43,7 +42,6 @@ A enumeração do serviço revelou informações relevantes sobre sua superfíci
 - Potencial exposição desnecessária de serviços críticos
 - Possível presença de componentes historicamente associados a vulnerabilidades conhecidas
 
-Essa etapa confirmou que o serviço apresentava características compatíveis com investigação ofensiva controlada.
 
 ---
 
@@ -63,9 +61,7 @@ Caso o mesmo cenário estivesse presente em ambiente corporativo real, os impact
 - Execução não autorizada de comandos
 - Acesso indevido a recursos internos
 - Exposição de dados compartilhados
-- Facilitação de movimentação lateral
-- Ampliação da superfície de ataque da infraestrutura
-
+- 
 ---
 
 ## 🧠 Visão de atacante (Red Team insight)
